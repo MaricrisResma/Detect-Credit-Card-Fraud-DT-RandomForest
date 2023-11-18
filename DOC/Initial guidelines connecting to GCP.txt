@@ -1,0 +1,15 @@
+Guide on how to connect using gcp
+
+
+1.) Download and install googlecloudinstaller.exe
+    https://cloud.google.com/sdk/docsinstall-sdk
+    Login and choose a project
+
+2.) Inside VSCODE
+    Go to extensions marketplace and download google cloud code
+    Install google cloud code, enter your gcp credentials if needed
+
+3.) Inside VS code run this inside terminal
+    gcloud auth login
+    gcloud config set project Projec_ID
+
