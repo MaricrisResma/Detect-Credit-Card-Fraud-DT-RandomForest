@@ -1,4 +1,7 @@
-Guide on how to connect using gcp
+#############################################
+## Guide on how to connect using gcp ##########
+## ###########################################
+## ###########################################
 
 
 1.) Download and install googlecloudinstaller.exe
@@ -11,5 +14,77 @@ Guide on how to connect using gcp
 
 3.) Inside VS code run this inside terminal
     gcloud auth login
-    gcloud config set project Projec_ID
+    gcloud config set project Projec_ID   
+
+
+**Our Project name is CreditFraud-beta
+
+After doing the step 1 to 3, inside vscode run this
+
+# For google cloud
+# pip install --upgrade google-api-python-client
+# pip install --upgrade google-cloud-storage
+# https://cloud.google.com/storage/docs/reference/libraries?authuser=1#client-libraries-install-python
+
+CELL 1: 
+try:
+    from google.cloud import storage
+    import google.cloud.storage
+    import json
+    import os
+    import sys
+except Exception as e:
+    print("Error : {} ".format(e))
+
+CELL 2:
+# We have a key that will connect as using .json file, you can have this key from jefford
+PATH = os.path.join(os.getcwd() , 'creditfraud-beta-404714-e0536176176a.json')
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = PATH
+
+## I already gave the .json key make sure to include this in the folder togethere with your .json file.
+
+CELL 3:
+storage_client = storage.Client(PATH)
+
+CELL 4: 
+storage_client
+
+
+CELL 5:
+bucket = storage_client.get_bucket('ccfraudbucket')
+
+CELL 6:
+filename = [filename.name for filename in list(bucket.list_blobs(prefix='')) ]
+filename
+
+CELL 7:
+### When importing necessary modules, together with your import numpy as np, import pandas as pd and etc.
+## Do not forget this to add
+
+CELL 8:
+import io
+from io import BytesIO
+
+CELL 9:
+
+## RUN THIS IF YOU ARE GOING TO USE GCP
+
+df_raw = pd.read_csv(
+    io.BytesIO(
+                 bucket.blob(blob_name = 'credit_card_transactions-ibm_v2.csv').download_as_string() 
+              ) ,
+                 encoding='UTF-8',
+                 sep=',')
+
+CELL 10:
+# Load the CSV data into a DataFrame 
+# This is for local
+df_raw = pd.read_csv("./credit_card_transactions-ibm_v2.csv")
+
+
+
+
+#################################################
+
+
 
