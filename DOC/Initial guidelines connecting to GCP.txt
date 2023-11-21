@@ -15,15 +15,14 @@
 3.) Inside VS code run this inside terminal
     gcloud auth login
     gcloud config set project Projec_ID   
-
-
 **Our Project name is CreditFraud-beta
+
 
 After doing the step 1 to 3, inside vscode run this
 
 # For google cloud
-# pip install --upgrade google-api-python-client
-# pip install --upgrade google-cloud-storage
+## pip install --upgrade google-api-python-client
+## pip install --upgrade google-cloud-storage
 # https://cloud.google.com/storage/docs/reference/libraries?authuser=1#client-libraries-install-python
 
 CELL 1: 
@@ -37,7 +36,7 @@ except Exception as e:
     print("Error : {} ".format(e))
 
 CELL 2:
-# We have a key that will connect as using .json file, you can have this key from jefford
+# We have a key that will connect using .json file, you can have this key from jefford
 PATH = os.path.join(os.getcwd() , 'creditfraud-beta-404714-e0536176176a.json')
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = PATH
 
