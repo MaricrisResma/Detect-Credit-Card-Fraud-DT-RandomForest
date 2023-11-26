@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "creditfraud-beta-404714",
+  "private_key_id": "e0536176176af4aa4abb6063c28cd62fa659859c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHhDdIjMmmup7i\nx3GEH8pKJfVb4uoR98Mvdn+lZiS3KLaeBFyJ3LDNczPFTTO7IoWRaTOEnfuK6gwE\n8T5ju3djpN/akp8i5XuVFfV7rFkQYnnstxoG7VG4H/PySc3x+B2Ra2ngwZGIvLN3\nVWqpp+5DolBKtR6sbHtUYDlHgBwmW5huXtFE4JfPKk4Pa2T/bbZkUobEM9dOLbry\ndnQU/SQlBfftp/BZPzbswTbt7CnOZSSozRduIhkMq0rxwWyDOnWXdfeELgLcFC/y\n+F6EXT7CVgG50J9UXnhrhsVWoZP49hOG1nN6UeaFDAim+s8f6POBrviLXghnoRk3\n8ArebUQhAgMBAAECggEAA8GWUDGFBbRjaQ3r3LAZMl6Bk9/InAWn8Tz6t+Xy5gHd\nt57fESIMWr8tp9bFamNYKWiAyvaLIE6PYwkZrW3/mEAn42kO7EIZcAaa+bTryQEE\nSPPE3oGEStegfkdrxFTxVZC0ocHIgs8D//NQj+4fRbsIu5yqUwEIggpSZGlh3kpN\nps2SIrYb5L0Mb8vq/EaDumNyGoav57momViRra/NI8RymxeC5eZpVQw7Yr6+iAMK\nxfGJtF7SwabYFXltNrDth0zdzoggBaR4qSEZKs1hNOJD4MVmKpK6i3YxHQNzQOI4\nkoDB6BlMDc2DlNKGmxUq7eAViOXSe56mrlH4S2kOuwKBgQDrpLhCDr06z/e1+mir\nIiMNXEuNCiNHsE2dRRe4OR/Mq1XWdK6Kq7vR1CM38BuAUgDss6eY67P6dzAD2NTs\nzkzA32aPwcf82l01BaZI6Z0ueocLMKrP1Es6Q4U8H8pH56hmQA8VTxrEZYqX/+Qf\nDcpSX8agwzT0ZNNt6S/yT5KYSwKBgQDYwItbdHiDcpII4adxp5aHgiE5SrCCqsuc\njWrU+v3Hmxv6sxRw+C17r4xN+m8NiyRkkc0TVCfTTqPB3ItA/NyCJkF0rdZUe9H1\nlKvl1bNNMP27FY524EP6GMaqDsiUYB4sGyxlfsEc2Jnyd7DlwHzBWkVq+lT8VdaQ\nKvZ3pRXpwwKBgQDalvB+BqIu/mBxJRsXNRGDAUzsRq03gSpea4t3TzZaa82ypIaN\nCIWwPbN13nwEaw2EhZtA1dUc0Jdv2iKakTzN5e6ECGR2ADJaTyVTmbI/PVYsYTby\nl6I5KA1eGrdQQGsMfvv+7mSMLw2DttJspCQ8ia/9zVdAJo+i85+QjZQVRQKBgQDV\nOf0dt+NCNHgy4oHNjfbIUZyLds1Tjd+Fn5zj7hGvxgftRTQruglMbrKQl3eeFC51\n/PSIOjZ/ahIwiNw4z0fBhQ7JUKXTMIeollvQWrzrh/FjlN40VYSpyKvO6YIqbK/h\n5c1z/xDMZsxzOYm9SvGvaDV3+tGV9n+ADbOumamH7wKBgB5KELu+9XpYAn4mgPio\nttfxmWykveycaLTMRiLKp9iY+FJnzPRRBJDDuoUIpAKUFFnIyVciTk5ej8e0jBf2\n5q6xlvR/JIC45X0tx0fwoSTQ9gpgFJ4l+6aOGeP/XUnaI/nFziScBNvABcLMaNTH\nSBlGP5wkQLMVkpm3noyzQ+oa\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-36@creditfraud-beta-404714.iam.gserviceaccount.com",
+  "client_id": "111773017610121993008",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-36%40creditfraud-beta-404714.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
