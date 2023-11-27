@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><br> <br><br>b
+    <title>Detect Credit Card Fraud</title>
+</head>
+<body>
+    <center>
+     <h1>Credit-Card-Fraud-Predictive-Model-</h1> <br> <br><br> <br>
+    <form action="{{url_for('predict')}}" method="post">
+        Days in number <input type='text' name='1-30' placeholder='1-30 '></input><br><br>
+        Transaction Amount <input type='text' name='number' placeholder='number '></input><br><br>
+        Hour<input type='text' name='1-24' placeholder='1-24 '></input><br><br>
+        Day<input type='text' name='Mon-Fri' placeholder='Mon-Fri '></input><br><br>
+        Date<input type='text' name='YYYY-MM-DD' placeholder='YYYY-MM-DD '></input><br><br>
+        
+        <button type='submit'> Predict </button>
+
+    </form>
+     <h3> <br> {{prediction_text}} </h3>
+
+</body>
+</html>
